@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Directory Portal</title>
+    <link rel="stylesheet" href="task_2.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Company Directory Portal</h1>
+        <form id="employee-form">
+            <h2>Employee Registration Form</h2>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="fullName" placeholder="Enter full name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+            
+            <label for="department">Department:</label>
+            <select id="department" name="department">
+                <option value="IT">IT</option>
+                <option value="HR">HR</option>
+                <!-- Add more departments as needed -->
+            </select>
+            
+            <label for="employee-id">Employee ID:</label>
+            <input type="text" id="employee-id" name="employeeID" placeholder="Enter employee ID" required>
+            
+            <label for="profile-pic-url">Profile Picture URL:</label>
+            <input type="url" id="profile-pic-url" name="profilePictureURL" placeholder="Enter profile picture URL">
+            
+            <button type="submit">Register Employee</button>
+        </form>
+
+        <div class="employee-list">
+            <h2>Employee List</h2>
+            <ul id="employee-list">
+                <li>1. <a href="list">John Doe - john@example.com</a> </li>
+                <li> 2. <a href="list">Jane Smith - jane@example.com</a> </li>
+                <!-- Dynamically generated employee list will go here -->
+            </ul>
+        </div>
+
+        <div class="employee-details">
+            <h2>Employee Details</h2>
+            <table>
+                <tr>
+                    
+                    <th><strong>Name</strong></th>
+                    <th><strong>Employee ID</strong>
+                    <th><strong>Department</strong></th>
+                    <th><strong>Profile Picture</strong></th>
+                    <!-- Display individual employee details dynamically here -->
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>12345</td>
+                    <td>It</td>
+                    <td><img src="abc.jpg" alt="50x50"></td>
+                </tr>
+                
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>67890</td>
+                    <td>Hr</td>
+                    <td><img src="abc.jpg" alt="50x50"></td>
+                </tr>
+        </table>
+       
+        </div>
+
+        <div class="company-location">
+            <h2>Company Location</h2>
+            <div class="location-box">
+            
+            <a href="https://maps.app.goo.gl/AiJ1gHhTA7VSvUvs6?g_st=ac">View Location <img src="ing1.JPG" alt=""></a>
+               
+            <!-- Add company location details here -->
+        </div>
+    </div>
+    
+   
+</body>
+</html>

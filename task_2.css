@@ -1,0 +1,82 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+        }
+        form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        h2{
+            align-items: center;
+            text-align: center;
+
+        }
+
+        form input, form select {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            width: 100%;
+            padding: 10px 20px;
+            background-color: #700ef0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #218838;
+        }
+        .employee-list h2{
+            align-items: center;
+            text-align: center;
+
+        }
+        table{
+            border-collapse: collapse;
+            
+        }
+        .employee-details th{
+            margin:1rem ;
+            padding: .5rem 1.2rem;
+            border: .1px solid black;
+            border-color: white;
+            background-color: #700ef0;
+
+        }
+        .employee-list, .employee-details {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        td img{
+            border-radius: 50%;
+        }
+        ul li{
+            list-style: none;
+            
+        }
+        ul li a{
+            text-decoration: none;
+            
+        }
+        .company-location .location-box{
+            height: 40%;
+            width: 60%;
+        }
+    </style>
